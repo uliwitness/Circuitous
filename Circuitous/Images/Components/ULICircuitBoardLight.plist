@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Image</key>
+		<string>ULICircuitBoardLight2</string>
+		<key>Connected</key>
+		<string>EW</string>
+		<key>WhenOn</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>WhenOn</key>
+		<false/>
+		<key>Image</key>
+		<string>ULICircuitBoardLight</string>
+		<key>Connected</key>
+		<string>EW</string>
+	</dict>
+</array>
+</plist>

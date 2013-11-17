@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55C6073C17EAE54E00AC7307 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C6073B17EAE54E00AC7307 /* Cocoa.framework */; };
+		55C6074617EAE54E00AC7307 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55C6074417EAE54E00AC7307 /* InfoPlist.strings */; };
+		55C6074817EAE54E00AC7307 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C6074717EAE54E00AC7307 /* main.m */; };
+		55C6074C17EAE54E00AC7307 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 55C6074A17EAE54E00AC7307 /* Credits.rtf */; };
+		55C6074F17EAE54E00AC7307 /* ULICircuitBoardDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C6074E17EAE54E00AC7307 /* ULICircuitBoardDocument.m */; };
+		55C6075217EAE54E00AC7307 /* ULICircuitBoardDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55C6075017EAE54E00AC7307 /* ULICircuitBoardDocument.xib */; };
+		55C6075517EAE54E00AC7307 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55C6075317EAE54E00AC7307 /* MainMenu.xib */; };
+		55C6075717EAE54E00AC7307 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C6075617EAE54E00AC7307 /* Images.xcassets */; };
+		55C6075E17EAE54E00AC7307 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C6075D17EAE54E00AC7307 /* XCTest.framework */; };
+		55C6075F17EAE54E00AC7307 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C6073B17EAE54E00AC7307 /* Cocoa.framework */; };
+		55C6076717EAE54E00AC7307 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55C6076517EAE54E00AC7307 /* InfoPlist.strings */; };
+		55C6076917EAE54E00AC7307 /* CircuitousTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C6076817EAE54E00AC7307 /* CircuitousTests.m */; };
+		55C6077617EAE74000AC7307 /* ULICircuitBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C6077517EAE74000AC7307 /* ULICircuitBoardView.m */; };
+		55C6077917EAE7D000AC7307 /* ULICircuitBoardField.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C6077817EAE7D000AC7307 /* ULICircuitBoardField.m */; };
+		55C607C217EB12D100AC7307 /* Components in Resources */ = {isa = PBXBuildFile; fileRef = 55C607C117EB12D100AC7307 /* Components */; };
+		55C607CB17EB12E100AC7307 /* ULICircuitBoardBattery.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C607C317EB12E100AC7307 /* ULICircuitBoardBattery.png */; };
+		55C607CC17EB12E100AC7307 /* ULICircuitBoardCrossBridge.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C607C417EB12E100AC7307 /* ULICircuitBoardCrossBridge.png */; };
+		55C607CD17EB12E100AC7307 /* ULICircuitBoardCrossConnection.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C607C517EB12E100AC7307 /* ULICircuitBoardCrossConnection.png */; };
+		55C607CE17EB12E100AC7307 /* ULICircuitBoardHorizontalConnection.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C607C617EB12E100AC7307 /* ULICircuitBoardHorizontalConnection.png */; };
+		55C607CF17EB12E100AC7307 /* ULICircuitBoardLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C607C717EB12E100AC7307 /* ULICircuitBoardLight.png */; };
+		55C607D017EB12E100AC7307 /* ULICircuitBoardSwitch.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C607C817EB12E100AC7307 /* ULICircuitBoardSwitch.png */; };
+		55C607D117EB12E100AC7307 /* ULICircuitBoardSwitch2.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C607C917EB12E100AC7307 /* ULICircuitBoardSwitch2.png */; };
+		55C607D217EB12E100AC7307 /* ULICircuitBoardVerticalConnection.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C607CA17EB12E100AC7307 /* ULICircuitBoardVerticalConnection.png */; };
+		55C607D517EB137E00AC7307 /* ULICircuitBoardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C607D417EB137E00AC7307 /* ULICircuitBoardAppDelegate.m */; };
+		55C607D717EB381100AC7307 /* ULICircuitBoardLight2.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C607D617EB381100AC7307 /* ULICircuitBoardLight2.png */; };
+		55C607DC17EB543C00AC7307 /* ULICircuitBoardNEConnection.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C607D817EB543C00AC7307 /* ULICircuitBoardNEConnection.png */; };
+		55C607DD17EB543C00AC7307 /* ULICircuitBoardNWConnection.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C607D917EB543C00AC7307 /* ULICircuitBoardNWConnection.png */; };
+		55C607DE17EB543C00AC7307 /* ULICircuitBoardSEConnection.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C607DA17EB543C00AC7307 /* ULICircuitBoardSEConnection.png */; };
+		55C607DF17EB543C00AC7307 /* ULICircuitBoardSWConnection.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C607DB17EB543C00AC7307 /* ULICircuitBoardSWConnection.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55C6076017EAE54E00AC7307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55C6073017EAE54E00AC7307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55C6073717EAE54E00AC7307;
+			remoteInfo = Circuitous;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55C6073817EAE54E00AC7307 /* Circuitous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circuitous.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C6073B17EAE54E00AC7307 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		55C6073E17EAE54E00AC7307 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		55C6073F17EAE54E00AC7307 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		55C6074017EAE54E00AC7307 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55C6074317EAE54E00AC7307 /* Circuitous-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Circuitous-Info.plist"; sourceTree = "<group>"; };
+		55C6074517EAE54E00AC7307 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55C6074717EAE54E00AC7307 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55C6074917EAE54E00AC7307 /* Circuitous-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Circuitous-Prefix.pch"; sourceTree = "<group>"; };
+		55C6074B17EAE54E00AC7307 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		55C6074D17EAE54E00AC7307 /* ULICircuitBoardDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ULICircuitBoardDocument.h; sourceTree = "<group>"; };
+		55C6074E17EAE54E00AC7307 /* ULICircuitBoardDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ULICircuitBoardDocument.m; sourceTree = "<group>"; };
+		55C6075117EAE54E00AC7307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ULICircuitBoardDocument.xib; sourceTree = "<group>"; };
+		55C6075417EAE54E00AC7307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		55C6075617EAE54E00AC7307 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		55C6075C17EAE54E00AC7307 /* CircuitousTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircuitousTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C6075D17EAE54E00AC7307 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		55C6076417EAE54E00AC7307 /* CircuitousTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CircuitousTests-Info.plist"; sourceTree = "<group>"; };
+		55C6076617EAE54E00AC7307 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55C6076817EAE54E00AC7307 /* CircuitousTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircuitousTests.m; sourceTree = "<group>"; };
+		55C6077417EAE74000AC7307 /* ULICircuitBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULICircuitBoardView.h; sourceTree = "<group>"; };
+		55C6077517EAE74000AC7307 /* ULICircuitBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULICircuitBoardView.m; sourceTree = "<group>"; };
+		55C6077717EAE7D000AC7307 /* ULICircuitBoardField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULICircuitBoardField.h; sourceTree = "<group>"; };
+		55C6077817EAE7D000AC7307 /* ULICircuitBoardField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULICircuitBoardField.m; sourceTree = "<group>"; };
+		55C607C117EB12D100AC7307 /* Components */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Components; path = Images/Components; sourceTree = "<group>"; };
+		55C607C317EB12E100AC7307 /* ULICircuitBoardBattery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ULICircuitBoardBattery.png; path = Images/ULICircuitBoardBattery.png; sourceTree = "<group>"; };
+		55C607C417EB12E100AC7307 /* ULICircuitBoardCrossBridge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ULICircuitBoardCrossBridge.png; path = Images/ULICircuitBoardCrossBridge.png; sourceTree = "<group>"; };
+		55C607C517EB12E100AC7307 /* ULICircuitBoardCrossConnection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ULICircuitBoardCrossConnection.png; path = Images/ULICircuitBoardCrossConnection.png; sourceTree = "<group>"; };
+		55C607C617EB12E100AC7307 /* ULICircuitBoardHorizontalConnection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ULICircuitBoardHorizontalConnection.png; path = Images/ULICircuitBoardHorizontalConnection.png; sourceTree = "<group>"; };
+		55C607C717EB12E100AC7307 /* ULICircuitBoardLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ULICircuitBoardLight.png; path = Images/ULICircuitBoardLight.png; sourceTree = "<group>"; };
+		55C607C817EB12E100AC7307 /* ULICircuitBoardSwitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ULICircuitBoardSwitch.png; path = Images/ULICircuitBoardSwitch.png; sourceTree = "<group>"; };
+		55C607C917EB12E100AC7307 /* ULICircuitBoardSwitch2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ULICircuitBoardSwitch2.png; path = Images/ULICircuitBoardSwitch2.png; sourceTree = "<group>"; };
+		55C607CA17EB12E100AC7307 /* ULICircuitBoardVerticalConnection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ULICircuitBoardVerticalConnection.png; path = Images/ULICircuitBoardVerticalConnection.png; sourceTree = "<group>"; };
+		55C607D317EB137E00AC7307 /* ULICircuitBoardAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULICircuitBoardAppDelegate.h; sourceTree = "<group>"; };
+		55C607D417EB137E00AC7307 /* ULICircuitBoardAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULICircuitBoardAppDelegate.m; sourceTree = "<group>"; };
+		55C607D617EB381100AC7307 /* ULICircuitBoardLight2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ULICircuitBoardLight2.png; path = Images/ULICircuitBoardLight2.png; sourceTree = "<group>"; };
+		55C607D817EB543C00AC7307 /* ULICircuitBoardNEConnection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ULICircuitBoardNEConnection.png; path = Images/ULICircuitBoardNEConnection.png; sourceTree = "<group>"; };
+		55C607D917EB543C00AC7307 /* ULICircuitBoardNWConnection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ULICircuitBoardNWConnection.png; path = Images/ULICircuitBoardNWConnection.png; sourceTree = "<group>"; };
+		55C607DA17EB543C00AC7307 /* ULICircuitBoardSEConnection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ULICircuitBoardSEConnection.png; path = Images/ULICircuitBoardSEConnection.png; sourceTree = "<group>"; };
+		55C607DB17EB543C00AC7307 /* ULICircuitBoardSWConnection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ULICircuitBoardSWConnection.png; path = Images/ULICircuitBoardSWConnection.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55C6073517EAE54E00AC7307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C6073C17EAE54E00AC7307 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C6075917EAE54E00AC7307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C6075F17EAE54E00AC7307 /* Cocoa.framework in Frameworks */,
+				55C6075E17EAE54E00AC7307 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55C6072F17EAE54E00AC7307 = {
+			isa = PBXGroup;
+			children = (
+				55C6074117EAE54E00AC7307 /* Circuitous */,
+				55C6076217EAE54E00AC7307 /* CircuitousTests */,
+				55C6073A17EAE54E00AC7307 /* Frameworks */,
+				55C6073917EAE54E00AC7307 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55C6073917EAE54E00AC7307 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55C6073817EAE54E00AC7307 /* Circuitous.app */,
+				55C6075C17EAE54E00AC7307 /* CircuitousTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55C6073A17EAE54E00AC7307 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55C6073B17EAE54E00AC7307 /* Cocoa.framework */,
+				55C6075D17EAE54E00AC7307 /* XCTest.framework */,
+				55C6073D17EAE54E00AC7307 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55C6073D17EAE54E00AC7307 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55C6073E17EAE54E00AC7307 /* AppKit.framework */,
+				55C6073F17EAE54E00AC7307 /* CoreData.framework */,
+				55C6074017EAE54E00AC7307 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		55C6074117EAE54E00AC7307 /* Circuitous */ = {
+			isa = PBXGroup;
+			children = (
+				55C607D317EB137E00AC7307 /* ULICircuitBoardAppDelegate.h */,
+				55C607D417EB137E00AC7307 /* ULICircuitBoardAppDelegate.m */,
+				55C6074D17EAE54E00AC7307 /* ULICircuitBoardDocument.h */,
+				55C6074E17EAE54E00AC7307 /* ULICircuitBoardDocument.m */,
+				55C6075017EAE54E00AC7307 /* ULICircuitBoardDocument.xib */,
+				55C6077417EAE74000AC7307 /* ULICircuitBoardView.h */,
+				55C6077517EAE74000AC7307 /* ULICircuitBoardView.m */,
+				55C6077717EAE7D000AC7307 /* ULICircuitBoardField.h */,
+				55C6077817EAE7D000AC7307 /* ULICircuitBoardField.m */,
+				55C6075317EAE54E00AC7307 /* MainMenu.xib */,
+				55C6075617EAE54E00AC7307 /* Images.xcassets */,
+				55C6074217EAE54E00AC7307 /* Supporting Files */,
+				55C607C117EB12D100AC7307 /* Components */,
+				55C607C317EB12E100AC7307 /* ULICircuitBoardBattery.png */,
+				55C607C417EB12E100AC7307 /* ULICircuitBoardCrossBridge.png */,
+				55C607C517EB12E100AC7307 /* ULICircuitBoardCrossConnection.png */,
+				55C607C617EB12E100AC7307 /* ULICircuitBoardHorizontalConnection.png */,
+				55C607C717EB12E100AC7307 /* ULICircuitBoardLight.png */,
+				55C607C817EB12E100AC7307 /* ULICircuitBoardSwitch.png */,
+				55C607C917EB12E100AC7307 /* ULICircuitBoardSwitch2.png */,
+				55C607CA17EB12E100AC7307 /* ULICircuitBoardVerticalConnection.png */,
+				55C607D617EB381100AC7307 /* ULICircuitBoardLight2.png */,
+				55C607D817EB543C00AC7307 /* ULICircuitBoardNEConnection.png */,
+				55C607D917EB543C00AC7307 /* ULICircuitBoardNWConnection.png */,
+				55C607DA17EB543C00AC7307 /* ULICircuitBoardSEConnection.png */,
+				55C607DB17EB543C00AC7307 /* ULICircuitBoardSWConnection.png */,
+			);
+			path = Circuitous;
+			sourceTree = "<group>";
+		};
+		55C6074217EAE54E00AC7307 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55C6074317EAE54E00AC7307 /* Circuitous-Info.plist */,
+				55C6074417EAE54E00AC7307 /* InfoPlist.strings */,
+				55C6074717EAE54E00AC7307 /* main.m */,
+				55C6074917EAE54E00AC7307 /* Circuitous-Prefix.pch */,
+				55C6074A17EAE54E00AC7307 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55C6076217EAE54E00AC7307 /* CircuitousTests */ = {
+			isa = PBXGroup;
+			children = (
+				55C6076817EAE54E00AC7307 /* CircuitousTests.m */,
+				55C6076317EAE54E00AC7307 /* Supporting Files */,
+			);
+			path = CircuitousTests;
+			sourceTree = "<group>";
+		};
+		55C6076317EAE54E00AC7307 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55C6076417EAE54E00AC7307 /* CircuitousTests-Info.plist */,
+				55C6076517EAE54E00AC7307 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55C6073717EAE54E00AC7307 /* Circuitous */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C6076C17EAE54E00AC7307 /* Build configuration list for PBXNativeTarget "Circuitous" */;
+			buildPhases = (
+				55C6073417EAE54E00AC7307 /* Sources */,
+				55C6073517EAE54E00AC7307 /* Frameworks */,
+				55C6073617EAE54E00AC7307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Circuitous;
+			productName = Circuitous;
+			productReference = 55C6073817EAE54E00AC7307 /* Circuitous.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55C6075B17EAE54E00AC7307 /* CircuitousTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C6076F17EAE54E00AC7307 /* Build configuration list for PBXNativeTarget "CircuitousTests" */;
+			buildPhases = (
+				55C6075817EAE54E00AC7307 /* Sources */,
+				55C6075917EAE54E00AC7307 /* Frameworks */,
+				55C6075A17EAE54E00AC7307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55C6076117EAE54E00AC7307 /* PBXTargetDependency */,
+			);
+			name = CircuitousTests;
+			productName = CircuitousTests;
+			productReference = 55C6075C17EAE54E00AC7307 /* CircuitousTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55C6073017EAE54E00AC7307 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ULI;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Uli Kusterer";
+				TargetAttributes = {
+					55C6075B17EAE54E00AC7307 = {
+						TestTargetID = 55C6073717EAE54E00AC7307;
+					};
+				};
+			};
+			buildConfigurationList = 55C6073317EAE54E00AC7307 /* Build configuration list for PBXProject "Circuitous" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55C6072F17EAE54E00AC7307;
+			productRefGroup = 55C6073917EAE54E00AC7307 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55C6073717EAE54E00AC7307 /* Circuitous */,
+				55C6075B17EAE54E00AC7307 /* CircuitousTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55C6073617EAE54E00AC7307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C6074617EAE54E00AC7307 /* InfoPlist.strings in Resources */,
+				55C607D117EB12E100AC7307 /* ULICircuitBoardSwitch2.png in Resources */,
+				55C6075717EAE54E00AC7307 /* Images.xcassets in Resources */,
+				55C607D217EB12E100AC7307 /* ULICircuitBoardVerticalConnection.png in Resources */,
+				55C607CD17EB12E100AC7307 /* ULICircuitBoardCrossConnection.png in Resources */,
+				55C607DF17EB543C00AC7307 /* ULICircuitBoardSWConnection.png in Resources */,
+				55C607C217EB12D100AC7307 /* Components in Resources */,
+				55C607CB17EB12E100AC7307 /* ULICircuitBoardBattery.png in Resources */,
+				55C6075217EAE54E00AC7307 /* ULICircuitBoardDocument.xib in Resources */,
+				55C607CC17EB12E100AC7307 /* ULICircuitBoardCrossBridge.png in Resources */,
+				55C607CF17EB12E100AC7307 /* ULICircuitBoardLight.png in Resources */,
+				55C607DC17EB543C00AC7307 /* ULICircuitBoardNEConnection.png in Resources */,
+				55C6074C17EAE54E00AC7307 /* Credits.rtf in Resources */,
+				55C607DD17EB543C00AC7307 /* ULICircuitBoardNWConnection.png in Resources */,
+				55C6075517EAE54E00AC7307 /* MainMenu.xib in Resources */,
+				55C607CE17EB12E100AC7307 /* ULICircuitBoardHorizontalConnection.png in Resources */,
+				55C607DE17EB543C00AC7307 /* ULICircuitBoardSEConnection.png in Resources */,
+				55C607D717EB381100AC7307 /* ULICircuitBoardLight2.png in Resources */,
+				55C607D017EB12E100AC7307 /* ULICircuitBoardSwitch.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C6075A17EAE54E00AC7307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C6076717EAE54E00AC7307 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55C6073417EAE54E00AC7307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C6077617EAE74000AC7307 /* ULICircuitBoardView.m in Sources */,
+				55C6074817EAE54E00AC7307 /* main.m in Sources */,
+				55C607D517EB137E00AC7307 /* ULICircuitBoardAppDelegate.m in Sources */,
+				55C6077917EAE7D000AC7307 /* ULICircuitBoardField.m in Sources */,
+				55C6074F17EAE54E00AC7307 /* ULICircuitBoardDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C6075817EAE54E00AC7307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C6076917EAE54E00AC7307 /* CircuitousTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55C6076117EAE54E00AC7307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55C6073717EAE54E00AC7307 /* Circuitous */;
+			targetProxy = 55C6076017EAE54E00AC7307 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55C6074417EAE54E00AC7307 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55C6074517EAE54E00AC7307 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55C6074A17EAE54E00AC7307 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55C6074B17EAE54E00AC7307 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		55C6075017EAE54E00AC7307 /* ULICircuitBoardDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55C6075117EAE54E00AC7307 /* Base */,
+			);
+			name = ULICircuitBoardDocument.xib;
+			sourceTree = "<group>";
+		};
+		55C6075317EAE54E00AC7307 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55C6075417EAE54E00AC7307 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		55C6076517EAE54E00AC7307 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55C6076617EAE54E00AC7307 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55C6076A17EAE54E00AC7307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55C6076B17EAE54E00AC7307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55C6076D17EAE54E00AC7307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Circuitous/Circuitous-Prefix.pch";
+				INFOPLIST_FILE = "Circuitous/Circuitous-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55C6076E17EAE54E00AC7307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Circuitous/Circuitous-Prefix.pch";
+				INFOPLIST_FILE = "Circuitous/Circuitous-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		55C6077017EAE54E00AC7307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Circuitous.app/Contents/MacOS/Circuitous";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Circuitous/Circuitous-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CircuitousTests/CircuitousTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		55C6077117EAE54E00AC7307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Circuitous.app/Contents/MacOS/Circuitous";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Circuitous/Circuitous-Prefix.pch";
+				INFOPLIST_FILE = "CircuitousTests/CircuitousTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55C6073317EAE54E00AC7307 /* Build configuration list for PBXProject "Circuitous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C6076A17EAE54E00AC7307 /* Debug */,
+				55C6076B17EAE54E00AC7307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55C6076C17EAE54E00AC7307 /* Build configuration list for PBXNativeTarget "Circuitous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C6076D17EAE54E00AC7307 /* Debug */,
+				55C6076E17EAE54E00AC7307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55C6076F17EAE54E00AC7307 /* Build configuration list for PBXNativeTarget "CircuitousTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C6077017EAE54E00AC7307 /* Debug */,
+				55C6077117EAE54E00AC7307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55C6073017EAE54E00AC7307 /* Project object */;
+}

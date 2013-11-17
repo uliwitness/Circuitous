@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>MinusIn</key>
+		<string>N</string>
+		<key>Connected</key>
+		<string>NS</string>
+		<key>PlusIn</key>
+		<string>S</string>
+		<key>Image</key>
+		<string>ULICircuitBoardBattery</string>
+	</dict>
+</array>
+</plist>
